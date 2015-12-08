@@ -1,0 +1,14 @@
+{
+  "name": "Login Helper",
+  "description": "Prepopulate login credential",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+    "default_title": "Prepopulate credential",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

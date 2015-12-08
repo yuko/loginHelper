@@ -1,0 +1,23 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 5px;
+  width: 150px;
+  color: #7b858e;
+  background: #fff;
+}
+div:first-child {
+  margin-top: 0px;
+}
+div {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-top: 2px;
+  color: #000;
+  background: #e8eaed;
+  -webkit-border-radius: 5px;
+}
+div:hover {
+  background: #00afd8;
+  color: #fff;
+}
